@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(#edaba3, #f5e6d8);
+}
+.container-index {
+    background-color: #fdfaf7;
+    margin: 2rem;
+}
+.start-index {
+    background-image: url(DY.jpg);
+    color: #fdfaf7;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+    color: #fdfaf7;
+}
+.nav-index {
+	list-style-type: none;
+}
+.nav-index li a {
+	float: right;
+	display: block;
+}
+
+.nav-index ul {
+    list-style-type: none;
+	padding-bottom: 29px;
+}
+.nav-index a:hover {
+	color: green;
+}
