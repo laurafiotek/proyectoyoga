@@ -1,0 +1,147 @@
+body {
+    margin: auto;
+}
+
+/* NAV */
+
+.nav-dhyana {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.nav-dhyana li a {
+	float: right;
+	display: block;
+}
+.nav-dhyana ul {
+    list-style-type: none;
+    padding-bottom: 29px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 16rem;
+}
+.nav-dhyana a {
+    text-decoration: none;
+    color: black;
+}
+
+/* CONTENT */
+
+
+.yoga-staff {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: rgb(54, 53, 53);
+    overflow: auto;
+}
+
+img {
+    height: 12rem;
+    border-radius: 50%;
+    box-shadow: 0.4rem -0.1rem 0.1rem rgb(228, 90, 90);
+}
+.professor1, .professor2, .professor3 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.professor4 {
+    float: right;
+    width: 25%;
+    text-align: center;
+}
+
+.yoga-staff p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Open Sans', Verdana;
+    font-size: 0.89rem;
+    line-height: 1.5rem;
+}
+.yoga-staff h3 {
+    font-family: 'Droid Serif', Helvetica;
+}
+.yoga-staff .fa {
+    font-size: 1rem;
+    padding-right: 8px;
+}
+.yoga-staff a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.yoga-staff a:hover {
+    color: #eb6682;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer-index {
+    font-family: 'Open Sans', Verdana;
+    clear: both;
+    background-color: #ebe9e7;
+}
+.footer-index a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.footer-index a:hover {
+    color: #eb6682;
+}
+.footer-index ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+.footer-index li {
+    padding-bottom: 0.7rem;
+}
+.footer-index .fa {
+    font-size: 1.5rem;
+}
+.end-index {
+    overflow: auto;
+    padding-top: 1rem;
+}
+.first-list {
+    float: right;
+    width: 15%;
+}
+.second-list, .third-list {
+    float: right;
+    width: 15%;
+}
+.social-list {
+    float: left;
+    width: 15%;
+    display: inline-flex
+}
+.social-list p {
+    margin: 0;
+}
+.social-list li {
+    padding-right: 1rem;
+}
+.footnav-index p {
+    margin-left: 2.5rem;
+}
+.copyright-index {
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
+}

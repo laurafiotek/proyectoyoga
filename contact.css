@@ -1,0 +1,128 @@
+body {
+    background-color: #fdfaf7;
+    margin: auto;
+}
+
+
+/* NAV */
+
+.nav-dhyana {
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.nav-dhyana li a {
+	float: right;
+	display: block;
+}
+.nav-dhyana ul {
+    list-style-type: none;
+    padding-bottom: 29px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 16rem;
+}
+.nav-dhyana a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* FORM */
+
+
+
+form {
+    margin-bottom: 5rem;
+}
+.contact-us {
+	font-family: 'Droid Serif', Verdana;
+	display: flex;
+    justify-content: center;
+    padding-top: 5rem
+}
+.box-form {
+	font-family: 'Open Sans', Helvetica;
+	color: #4d4d4d;
+}
+.box-form form {
+    text-align: center;
+    margin-top: 3rem;
+}
+.form-control:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+}
+.btn-default {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border-radius: 1px;
+    font-family: 'Open Sans';
+}
+.form-group input, textarea {
+    border-radius: 2px;
+    font-family: 'Open Sans';
+    width: 25%;
+    margin-bottom: 0.5rem;
+}
+
+
+/* FOOTER */
+
+.footer-index {
+    font-family: 'Open Sans', Verdana;
+    background-color: #ebe9e7;
+}
+.footer-index a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.footer-index a:hover {
+    color: #eb6682;
+}
+.footer-index ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+.footer-index li {
+    padding-bottom: 0.7rem;
+}
+.footer-index .fa {
+    font-size: 1.5rem;
+}
+.end-index {
+    overflow: auto;
+    padding-top: 1rem;
+}
+.first-list {
+    float: right;
+    width: 15%;
+}
+.second-list, .third-list {
+    float: right;
+    width: 15%;
+}
+.social-list {
+    float: left;
+    width: 15%;
+    display: inline-flex
+}
+.social-list p {
+    margin: 0;
+}
+.social-list li {
+    padding-right: 1rem;
+}
+.footnav-index p {
+    margin-left: 2.5rem;
+}
+.copyright-index {
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
+}

@@ -1,30 +1,255 @@
+
+/* INDEX */
+
 body {
-    background-image: linear-gradient(#edaba3, #f5e6d8);
+    margin: auto;
 }
+
 .container-index {
     background-color: #fdfaf7;
-    margin: 2rem;
 }
 .start-index {
     background-image: url(DY.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
     color: #fdfaf7;
+    height: 95vh;
 }
-a:-webkit-any-link {
+.start-index a:-webkit-any-link {
     text-decoration: none;
     color: #fdfaf7;
 }
 .nav-index {
-	list-style-type: none;
+    list-style-type: none;
+    padding-top: 1rem;
 }
 .nav-index li a {
 	float: right;
 	display: block;
 }
-
 .nav-index ul {
     list-style-type: none;
-	padding-bottom: 29px;
+    padding-bottom: 29px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 16rem;
 }
-.nav-index a:hover {
-	color: green;
+/* .nav-index a:hover {
+    preguntar para hacer como box-shadow para que no se baje el contenido 
+    border-top: 3px solid #eb6682;
+    transition: all 0.5s;
+}*/
+.header-index {
+    margin: 13rem 5rem;
+}
+.start-index h1 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 2.8rem;
+    word-spacing: 5px;
+    letter-spacing: 1.4px;
+    text-shadow: 0.03rem 0.03rem 0.08rem black;
+}
+.start-index h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+
+/* US */
+
+.us-index {
+    overflow: auto;
+}
+.img-us {
+    width: 50%;
+    float: left;
+}
+.img-us img {
+    height: 37.5rem;
+    
+}
+.text-us { 
+    width: 50%;
+    float: right;
+    height: 32rem;
+}
+.text-us h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.7rem;
+}
+.text-us p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    margin-right: 8rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.text-us a {
+    text-decoration: none;
+    color: #eb6682;
+    /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    */
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.text-us a:hover {
+    padding-left: 3px;
+}
+
+
+
+/* AYURVEDA */
+
+
+
+.text-ayurveda { 
+    width: 40%;
+    float: left;
+    padding: 1rem 2rem;
+}
+.text-ayurveda h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.7rem;
+}
+.text-ayurveda p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.text-ayurveda a {
+    text-decoration: none;
+    color: #eb6682;
+    /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    */
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.text-ayurveda a:hover {
+    padding-left: 3px;
+}
+.img-ayurveda img {
+    height: 36rem;
+    float: right;
+}
+
+
+
+/* BLOG */
+
+
+.postsblog-index {
+    display: inline-flex;
+    background-image: url(bg-cards2.png);
+    height: 95vh;
+    width: 100%;
+}
+.content-blog-index {
+    padding: 2rem;
+}
+.postsblog-index h4 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1.7rem;
+}
+.blog-card {
+    background-color: #fdfaf7;
+    box-shadow: 0.04rem 0.05rem 0.9rem rgb(94, 91, 91);
+    width: 13rem;
+    height: 17rem;
+    padding: 1rem;
+}
+.blog-card h5 {
+    font-family: 'Droid Serif', Helvetica;
+    font-size: 1rem;
+}
+.blog-card p {
+    font-family: 'Open Sans', Helvetica;
+    font-size: 0.9rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+}
+.blog-card a {
+    text-decoration: none;
+    color: #eb6682;
+    /* text-shadow: 0.05rem 0.04rem 0.05rem #ccc;    */
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+}
+.blog-card a:hover {
+    padding-left: 3px;
+}
+.first {
+    float: left;
+    margin-right: 2rem;
+    margin-left: 13rem;
+}
+.second {
+    float: left;
+    margin-right: 2rem;
+}
+.third {
+    float: right;
+}
+
+
+
+/* FOOTER */
+
+.footer-index {
+    font-family: 'Open Sans', Verdana;
+    background-color: #ebe9e7;
+}
+.footer-index a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.footer-index a:hover {
+    color: #eb6682;
+}
+.footer-index ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+.footer-index li {
+    padding-bottom: 0.7rem;
+}
+.footer-index .fa {
+    font-size: 1.5rem;
+}
+.end-index {
+    overflow: auto;
+    padding-top: 1rem;
+}
+.first-list {
+    float: right;
+    width: 15%;
+}
+.second-list, .third-list {
+    float: right;
+    width: 15%;
+}
+.social-list {
+    float: left;
+    width: 15%;
+    display: inline-flex
+}
+.social-list p {
+    margin: 0;
+}
+.social-list li {
+    padding-right: 1rem;
+}
+.footnav-index p {
+    margin-left: 2.5rem;
+}
+.copyright-index {
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
 }
