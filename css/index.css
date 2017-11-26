@@ -9,7 +9,7 @@ body {
     background-color: #fdfaf7;
 }
 .start-index {
-    background-image: url(DY.jpg);
+    background-image: url(../images/DY.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -141,7 +141,7 @@ body {
 
 .postsblog-index {
     display: inline-flex;
-    background-image: url(bg-cards2.png);
+    background-image: url(../images/bg-cards2.png);
     height: 95vh;
     width: 100%;
 }
