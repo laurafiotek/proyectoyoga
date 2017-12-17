@@ -9,6 +9,8 @@ body {
 .nav-dhyana {
     list-style-type: none;
     padding-top: 1rem;
+    background-color: #ebe9e7;
+    height: 3.5rem;
 }
 .nav-dhyana li a {
 	float: right;
@@ -27,7 +29,10 @@ body {
     text-decoration: none;
     color: black;
 }
-
+.overline {
+    border-top: 2px solid #eb6682;  
+    margin-top: -2px;
+}
 
 /* FORM */
 

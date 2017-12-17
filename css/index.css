@@ -37,11 +37,7 @@ body {
     justify-content: space-around;
     padding: 0.5rem 16rem;
 }
-/* .nav-index a:hover {
-    preguntar para hacer como box-shadow para que no se baje el contenido 
-    border-top: 3px solid #eb6682;
-    transition: all 0.5s;
-}*/
+
 .header-index {
     margin: 13rem 5rem;
 }
@@ -68,11 +64,11 @@ body {
     float: left;
 }
 .img-us img {
-    height: 37.5rem;
+    height: 39.5rem;
     
 }
 .text-us { 
-    width: 50%;
+    width: 44%;
     float: right;
     height: 32rem;
 }
@@ -99,13 +95,26 @@ body {
 }
 
 
+/* BETWEEN SECTIONS */
+
+.logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -4px;
+}
+.logo-content {
+    position: absolute;
+    height: 10rem;
+}
+
 
 /* AYURVEDA */
 
 
 
 .text-ayurveda { 
-    width: 40%;
+    width: 36%;
     float: left;
     padding: 1rem 2rem;
 }
@@ -130,7 +139,7 @@ body {
     padding-left: 3px;
 }
 .img-ayurveda img {
-    height: 36rem;
+    height: 38.9rem;
     float: right;
 }
 
@@ -142,6 +151,7 @@ body {
 .postsblog-index {
     display: inline-flex;
     background-image: url(../images/bg-cards2.png);
+    background-size: cover;
     height: 95vh;
     width: 100%;
 }

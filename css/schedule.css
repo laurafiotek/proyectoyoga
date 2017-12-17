@@ -1,0 +1,140 @@
+body {
+    margin: auto;
+}
+
+/* NAV */
+
+.nav-dhyana {
+    list-style-type: none;
+    padding-top: 1rem;
+    background-color: #ebe9e7;
+    height: 3.5rem;
+}
+.nav-dhyana li a {
+	float: right;
+	display: block;
+}
+.nav-dhyana ul {
+    list-style-type: none;
+    padding-bottom: 29px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 16rem;
+}
+.nav-dhyana a {
+    text-decoration: none;
+    color: black;
+}
+.overline {
+    border-top: 2px solid #eb6682;  
+    margin-top: -2px;
+}
+
+/* CONTENT TABLE */
+
+
+.schedule-content {
+    font-family: 'Open Sans', Verdana;
+}
+.schedule-content .schedule-table {
+    width: 70%;
+    border-radius: 2px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    background-color: #ffebee;
+    box-shadow: 0.04rem 0.05rem 0.9rem rgb(94, 91, 91);
+    padding: 1rem 0.5rem;
+}
+
+.schedule-content .schedule-table, td {
+    border: 1px solid #ffebee;
+}
+
+.schedule-content td {
+    padding: 0.5rem;
+    background-color: #eec5cd;
+    font-size: 0.9rem;
+}
+.schedule-content .professor {
+    font-size: 0.8rem;
+    margin: 0;
+    color: #635a5b;
+}
+.schedule-content a {
+    text-decoration: none;
+    color: #eb6682;
+    font-family: 'Open Sans', Helvetica;
+    transition: padding-left 0.3s;
+    margin-left: 11rem;
+    font-size: 1.1rem;
+}
+.schedule-content a:hover {
+    padding-left: 3px;
+}
+
+
+
+/* FOOTER */
+
+.footer-index {
+    font-family: 'Open Sans', Verdana;
+    clear: both;
+    background-color: #ebe9e7;
+    margin-top: 3rem;
+}
+.footer-index a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    transition: color 0.5s;
+}
+.footer-index a:hover {
+    color: #eb6682;
+}
+.footer-index ul {
+    list-style-type: none;
+    font-size: 0.85rem;
+}
+.footer-index li {
+    padding-bottom: 0.7rem;
+}
+.footer-index .fa {
+    font-size: 1.5rem;
+}
+.end-index {
+    overflow: auto;
+    padding-top: 1rem;
+}
+.first-list {
+    float: right;
+    width: 15%;
+}
+.second-list, .third-list {
+    float: right;
+    width: 15%;
+}
+.social-list {
+    float: left;
+    width: 15%;
+    display: inline-flex
+}
+.social-list p {
+    margin: 0;
+}
+.social-list li {
+    padding-right: 1rem;
+}
+.footnav-index p {
+    margin-left: 2.5rem;
+}
+.copyright-index {
+    text-align: center;
+    clear: both;
+    color: #6e6c6c;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    background-color: #ebe9e7;
+}
