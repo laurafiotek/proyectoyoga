@@ -6889,10 +6889,10 @@ jQuery.fx.stop = function() {
 };
 
 jQuery.fx.speeds = {
-	slow: 600,
-	fast: 200,
+	slow: 200,
+	fast: 400,
 	// Default speed
-	_default: 400
+	_default: 600
 };
 
 

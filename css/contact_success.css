@@ -1,9 +1,10 @@
 body {
+    background-color: #fdfaf7;
     margin: auto;
 }
 img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"] {
     display: none;}
-    
+
 /* NAV */
 
 .nav-dhyana {
@@ -11,6 +12,7 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
     padding-top: 1rem;
     background-color: #ebe9e7;
     height: 3.5rem;
+    margin-bottom: 5rem;
 }
 .nav-dhyana li a {
 	float: right;
@@ -36,33 +38,29 @@ img[src*="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000w
 
 /* CONTENT */
 
-.album-content a:-webkit-any-link {
-  text-decoration: none;
-}
-
-.album-content .photo-container {
-    text-align: center;
+.box-success {
+    width: 37%;
+    height: 14rem;
+    background-color: #fdfaf7;
     margin: auto;
-    margin-top: 8rem;
-    margin-bottom: 7rem;
-    max-width: 66%;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eb6682;
 }
-
-.album-content a {
-    padding: 0.5rem;
+.contact-success {
+    text-align: center;
+    font-family: 'Open Sans', Verdana;
 }
-
-
-
-
 
 
 /* FOOTER */
 
 .footer-index {
     font-family: 'Open Sans', Verdana;
-    clear: both;
     background-color: #ebe9e7;
+    margin-top: 5rem;
 }
 .footer-index a {
     text-decoration: none;

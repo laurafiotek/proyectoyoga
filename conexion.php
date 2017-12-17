@@ -5,9 +5,9 @@
 	
 	$conexion = mysqli_connect(
 				"localhost",
-				"root",
-				"",
-				"proyectoyoga"
+				"id3621473_laura",
+				"12345",
+				"id3621473_dhyanayoga"
 				);
 	
 	/*$conexion = mysqli_connect(
