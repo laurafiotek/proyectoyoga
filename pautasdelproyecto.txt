@@ -1,0 +1,10 @@
+
+
+URL: https://dhyanayoga.000webhostapp.com/
+
+
+PAUTAS ELEGIDAS:
+- Favico del sitio web en todas las paginas.
+- Animaciones en HTML5/Transiciones en CSS3/Animaciones en CSS3
+- Etiquetas semánticas HTML5.
+- Formulario validado por JavaScript, HTML5 o PHP.
